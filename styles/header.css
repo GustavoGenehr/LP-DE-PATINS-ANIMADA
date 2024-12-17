@@ -18,13 +18,13 @@ img {
 
 }
 
-img[src*="logo"]:hover {
+header img[src*="logo"]:hover {
 
   transform: rotate(90deg);
 
 }
 
-img[src*="bag"]:hover {
+header img[src*="bag"]:hover {
 
   transform: rotate(-30deg);
   
@@ -36,7 +36,7 @@ position: relative;
 
 }
 
-a span {
+header a span {
   position: absolute;
   top: -0.5rem;
   right: -0.5rem;
